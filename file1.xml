@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>          <!--Декларація XML | вказаний тип кодування UTF-8 -->
+<req xmlns="http://www.w3.org/1999/xhtml">      <!--Кореневий елемент-->
+    <tableware id="tablewaer1">
+        <thing category="plate">Тарілки</thing> <!--Назва посуду/столового прибору-->
+        <number>19 шт.</number>                 <!--Кількість-->
+        <price>1006 грн.</price>                <!--Ціна-->
+    </tableware> 
+    <tableware id="tablewaer2">
+        <thing category="cups">Чашки</thing> 
+        <number>4 шт.</number>
+        <price>155 грн.</price>
+    </tableware>
+    <cutlery id="cutlery1">
+        <thing category="spoons">Ложки</thing>
+        <type>Столові</type>                    <!--Тип столового прибора-->
+        <number>3 шт.</number>
+        <price>70 грн.</price>
+    </cutlery>
+    <cutlery id="cutlery2">
+        <thing category="forks">Вилки</thing>
+        <type>Столові</type> 
+        <number>3 шт.</number>
+        <price>71 грн.</price>
+    </cutlery>
+</req>

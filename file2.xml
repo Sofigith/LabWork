@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>          
+<req xmlns="http://www.w3.org/1999/xhtml">      
+    <tableware id="tablewaer1">
+        <thing category="jars">Баночки</thing> <!--Назва посуду/столового прибору-->
+        <number>3 шт.</number>                 <!--Кількість-->
+        <price>277 грн.</price>                <!--Ціна-->
+    </tableware> 
+    <tableware id="tablewaer2">
+        <thing category="jar">Банка</thing> 
+        <number>1 шт.</number>
+        <price>69 грн.</price>
+    </tableware>
+    <bottles id="bottles1">
+        <thing category="bottles">Пляшки</thing>
+        <number>20 шт.</number>
+        <price>120 грн.</price>
+    </bottles>
+    <bottles id="bottles2">
+        <thing category="glass_bottles">Скляні пляшки</thing>
+        <number>50 шт.</number>
+        <price>350 грн.</price>
+    </bottles>
+</req>
